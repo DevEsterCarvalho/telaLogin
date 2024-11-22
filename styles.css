@@ -198,3 +198,53 @@ form div input{
 .novo-usuario a:hover {
     text-decoration: underline;
 }
+
+.mensagemDeErro {
+    color: black;
+    font-size: 20px;
+}
+
+/*medias*/
+
+@media (max-width: 1024px) {
+    main {
+        flex-direction: column;
+        gap: 32px;
+        height: auto;
+    }
+
+    .container-descricao > * {
+        width: 80%;
+    }
+
+    .texto-imagem h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 667px) {
+    main {
+        width: 95%;
+    }
+
+    .container-descricao > * {
+        width: 90%;
+    }
+
+    .texto-imagem h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .botao-login {
+        font-size: 16px;
+        height: 50px;
+    }
+}
